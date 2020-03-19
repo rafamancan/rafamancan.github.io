@@ -9,7 +9,7 @@ body {
   height: 100%;
 }
 body {
-  background-color: #34495e;
+  background-color: #ececec;
 }
 .profile {
   margin-top: 100px;
@@ -18,18 +18,18 @@ body {
 .profile img {
   width: 250px;
   height: 250px;
-  border: 5px solid #ececec;
+  border: 5px solid #ccc;
 }
 
 .profile p {
-  color: #f2f5f5;
+  color: #333;
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
 .resumo {
-  color: #ececec;
+  color: #333;
   font-size: 20px;
 }
 
