@@ -28,55 +28,11 @@ body {
   letter-spacing: 3px;
 }
 
-.resumo {
-  color: #333;
-  font-size: 20px;
-}
-
-.carreira {
-  background: #f2f2f2;
-  color: #34495e;
-}
-
-.carreira ul {
-  list-style: none;
-  margin: 5px 10px 5px 10px;
-}
-
-.carreira ul > li {
-  font-size: 20px;
-  margin-left: 30px;
-}
-
-.carreira ul > li > ul > li {
-  list-style-image: url("../img/terminal2.png");
-  margin-left: 25px;
-}
-.carreira2 {
-  background: #34495e;
-  color: #f2f2f2;
-}
-
-.carreira2 ul {
-  list-style: none;
-  margin: 5px 10px 5px 10px;
-}
-
-.carreira2 ul > li {
-  font-size: 20px;
-  margin-left: 30px;
-}
-
-.carreira2 ul > li > ul > li {
-  list-style-image: url("../img/terminal2.png");
-  margin-left: 25px;
-}
-
-.empresa {
-  margin-top: 20px 0px 20px 0px;
-}
-.empresa a {
-  text-decoration: none;
+.empresas a {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
 }
 
 footer img {
