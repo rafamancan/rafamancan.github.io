@@ -32,24 +32,24 @@
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Sobre mim</a>
+            <a class="nav-link" href="#about">Sobre mim</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Tecnologias</a>
+            <a class="nav-link" href="#techs">Tecnologias</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Profissional</a>
+            <a class="nav-link" href="#jobs">Profissional</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="#contact">Contato</a>
           </li>
         </ul>
       </div>
     </nav>
     <div class="row">
-      <div class="col-md-12 text-center profile">
+      <div class="col-md-12 text-center profile" id="about">
         <img
-          src="./assets/img/profile.jpg"
+          src="https://avatars1.githubusercontent.com/u/6341210?s=400&u=20a7d6ff0414c3a98e659f89c08043f69a5d52ca&v=4"
           alt="Profile"
           class="rounded-circle"
         />
@@ -68,7 +68,7 @@
         </blockquote>
       </div>
 
-      <div class="col-md-8 offset-md-2">
+      <div class="col-md-8 offset-md-2" id="techs">
         <table class="table table-hover table-bordered">
           <thead>
             <tr>
@@ -94,7 +94,7 @@
                 </div>
               </td>
             </tr>
-   <tr>
+            <tr>
               <th scope="row">Javascript</th>
               <td>desde 2013</td>
               <td>
@@ -110,7 +110,7 @@
                 </div>
               </td>
             </tr>
-  <tr>
+            <tr>
               <th scope="row">Css</th>
               <td>desde 2013</td>
               <td>
@@ -126,7 +126,7 @@
                 </div>
               </td>
             </tr>
-  <tr>
+            <tr>
               <th scope="row">Java</th>
               <td>desde 2013</td>
               <td>
@@ -142,7 +142,7 @@
                 </div>
               </td>
             </tr>
-  <tr>
+            <tr>
               <th scope="row">VBScript</th>
               <td>desde 2013</td>
               <td>
@@ -152,6 +152,22 @@
                     role="progressbar"
                     style="width: 60%"
                     aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">MySQL</th>
+              <td>desde 2013</td>
+              <td>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 100%"
+                    aria-valuenow="100"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   />
@@ -175,15 +191,31 @@
               </td>
             </tr>
             <tr>
-              <th scope="row">MySQL</th>
-              <td>desde 2013</td>
+              <th scope="row">Linux</th>
+              <td>desde 2015</td>
               <td>
                 <div class="progress">
                   <div
                     class="progress-bar bg-success"
                     role="progressbar"
-                    style="width: 100%"
-                    aria-valuenow="100"
+                    style="width: 90%"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">NodeJS</th>
+              <td>desde 2016</td>
+              <td>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-info"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="80"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   />
@@ -238,7 +270,7 @@
                 </div>
               </td>
             </tr>
-           <tr>
+            <tr>
               <th scope="row">React Native</th>
               <td>desde 2018</td>
               <td>
@@ -303,31 +335,15 @@
               </td>
             </tr>
             <tr>
-              <th scope="row">Linux</th>
-              <td>desde 2015</td>
+              <th scope="row">Typescript</th>
+              <td>desde 2020</td>
               <td>
                 <div class="progress">
                   <div
-                    class="progress-bar bg-success"
+                    class="progress-bar bg-warning"
                     role="progressbar"
-                    style="width: 90%"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  />
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">NodeJS</th>
-              <td>desde 2016</td>
-              <td>
-                <div class="progress">
-                  <div
-                    class="progress-bar bg-info"
-                    role="progressbar"
-                    style="width: 80%"
-                    aria-valuenow="80"
+                    style="width: 60%"
+                    aria-valuenow="60"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   />
@@ -337,55 +353,37 @@
           </tbody>
         </table>
       </div>
-      <div class="col-md-8 bg-primary text-light empresas offset-2">
+      <div class="col-12 bg-white text-primary padding" id="jobs">
         <h2>Trabalhos</h2>
         <p class="text-muted">Empresas em que prestei serviço. (CLT ou PJ)</p>
+        <div class="empresas">
           <a href="https://embraer.com" target="new">
-            <img
-              src="./assets/img/embraer-logo.png"
-              alt="Embraer SA"
-              width="300px"
-            />
+            <img src="./assets/img/embraer-logo.png" alt="Embraer SA" />
           </a>
           <a href="https://sonda.com" target="new">
-            <img
-              src="./assets/img/logo-sonda.svg"
-              alt="Sonda IT"
-              width="130px"
-            />
+            <img src="./assets/img/logo-sonda.svg" alt="Sonda IT" />
           </a>
           <a href="https://www.eox.com.br/" target="new">
-            <img
-              src="./assets/img/logo-eox.svg"
-              alt="Eox Tecnologia"
-              width="200px"
-            />
+            <img src="./assets/img/logo-eox.svg" alt="Eox Tecnologia" />
           </a>
           <a href="https://www.rentcars.com" target="new">
-            <img
-              src="./assets/img/rentcars-logo.png"
-              alt="Rentcars.com"
-              width="300px"
-            />
+            <img src="./assets/img/rentcars-logo.png" alt="Rentcars.com" />
           </a>
           <a href="https://www.everseeobras.com.br" target="new">
             <img
               src="./assets/img/eversee-logo.png"
               alt="Eversee Obras"
-              width="250px"
-              style="background:#f2f2f2"
+              style="background: #f2f2f2"
             />
           </a>
           <a href="https://liuv.it" target="new">
-            <img
-              src="./assets/img/logo-liuv.png"
-              alt="Liuv"
-            />
+            <img src="./assets/img/logo-liuv.png" alt="Liuv" />
           </a>
+        </div>
       </div>
     </div>
   </body>
-  <footer class="text-center">
+  <footer class="text-center" id="contact">
     <ul>
       <li>
         <a href="https://github.com/rafamancan" target="new">
@@ -395,11 +393,6 @@
       <li>
         <a href="https://twitter.com/rafamancan" target="new">
           <img src="./assets/img/twitter-brands.svg" alt="Twitter" />
-        </a>
-      </li>
-      <li>
-        <a href="https://instagram.com/rafamancan" target="new">
-          <img src="./assets/img/instagram-brands.svg" alt="Instagram" />
         </a>
       </li>
       <li>
